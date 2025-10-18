@@ -20,7 +20,7 @@ set cursorline
 set ttyfast
 
 call plug#begin(“~/.vim/plugged”)
- “ Plugin Section
+ " Plugin Section
  Plug 'dracula/vim'
  Plug 'ryanoasis/vim-devicons'
  Plug 'SirVer/ultisnips'
@@ -31,12 +31,12 @@ call plug#begin(“~/.vim/plugged”)
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-“ color schemes
- if (has(“termguicolors”))
- set termguicolors
- endif
- syntax enable
- “ colorscheme evening
+" color schemes
+" if (has(“termguicolors”))
+" set termguicolors
+" endif
+syntax enable
+" colorscheme evening
 colorscheme dracula
 
 " open new split panes to right and below
