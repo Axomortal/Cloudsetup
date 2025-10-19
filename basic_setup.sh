@@ -15,7 +15,7 @@ fi
 sudo apt install neovim
 
 # Install vim-plug for neovim and check success
-if sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'; then
+if sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'; then
     echo "Vim-Plug installed successfully!"
 else
     echo "There was an error installing Vim-Plug."
