@@ -8,7 +8,13 @@ install zsh wiht:
 
 shell customisation mit [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki)  
 download and run installscript with:  
->sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
+>sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+>
+>https://stackoverflow.com/questions/31624649/how-can-i-get-a-secure-system-wide-oh-my-zsh-configuration/42193058#42193058
+>Auto Updates are disabled since new users do not have permissions to update the /usr/share/oh-my-zsh files
+
+    To update oh-my-zsh just cd to /usr/share/oh-my-zsh/ and run 'sudo git pull'
+
 
 ## Editor NVIM
 
